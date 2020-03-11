@@ -1,0 +1,206 @@
+@charset "utf-8";
+/*
+                   
+          Kreat final designs page
+          Author: Miguel Bustamante
+          Date: February 20, 2020
+      
+          Filename: Kreat_designs.css
+        
+
+*/
+
+
+/* =============================================
+	Base styles used by All Screens
+   =============================================
+
+*/
+
+
+html {
+	
+	background-color: rgb(81, 208, 233);
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url("IMG_5513.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	top: 0;
+	left:0; 
+	right: 0; 
+	bottom:0;
+	position: relative;
+	
+}
+
+body {
+	box-shadow: 15px 0px 30px rgb(51, 51, 51),
+				-15px 0px 30px rgb(51, 51, 51);	
+	margin: 0px auto;				   
+	max-width: 1024px;
+}
+
+body > header {
+	/*background-image: url(backKREAT.jpg);*/
+	background-position: center;
+	background-size: cover;
+	text-align: center;	
+	width: 100%;
+	top: 0;
+	left:0; 
+	right: 0; 
+	bottom:0;
+	position: relative;
+}
+
+body > header > img {
+	display: inline;
+	width: 70%;
+	max-width: 3000px;
+   text-align: center;
+}
+
+body > section > img {
+	display: inline;
+	width: 40%;
+	max-width: 100px;
+   text-align: center;
+   
+   }
+
+
+
+
+
+/* Horizontal Navigation Styles */
+
+nav.horizontal {
+	height: auto;
+	width: 100%;
+}
+
+nav.horizontal ul {
+	background-color: rgb(124, 207, 251);
+	text-align: center;
+	width: 100%;	
+}
+
+
+nav.horizontal li {
+	font-family: 'Comic Sans MS', cursive; 
+	font-size: 2em;
+	line-height: 2em;
+	list-style-type: none;	
+	width: 100%;
+}
+
+nav.horizontal li a {
+	color: rgb(62, 144, 50);
+	display: block;
+	width: 100%;
+}
+
+nav.horizontal li a:hover, nav.horizontal li a:active {
+	color: white;
+	background-color: rgb(51, 51, 51);
+}
+
+/* Article Styles */
+
+article {
+	padding: 2px;
+}
+	
+article h1 {
+	text-align: center;
+	font-size: 1.4em;
+	letter-spacing: 3px;
+}
+
+article p {
+	font-family: 'Comic Sans MS', cursive; 
+	font-size: 3em;
+	line-height: 1.2;
+	margin: 40px 0px;
+}
+
+
+/*  Sheet Styles */
+
+section#sheet {
+	border: 1px solid rgb(101, 101, 101);
+	background-color: white;
+	padding: 10px 10px 0px 10px;
+	height: 65vh;
+}	
+
+section#sheet h1 {
+	font-size: 5em;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 5px;
+	margin-top: 30px;
+}
+
+section#sheet footer {
+	text-align: center;
+	width: 100%;
+	clear: left;
+}
+
+
+/* Navigation Pages Styles */
+
+nav#pages {
+	padding-bottom: 10px;
+}
+
+nav#pages::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav#pages a {
+	background-color: rgb(242, 221, 174);
+	border: 1px solid rgb(101, 101, 101);
+	box-shadow: rgb(51, 51, 51) 2px 2px 5px;
+	display: block;
+	float: left;
+	margin: 4px;
+	padding: 2px;
+	text-align: center;
+	width: 20px;
+}
+
+nav#pages a:first-of-type {
+	width: 80px;
+}
+
+nav#pages a#current {
+	background-color: rgb(51, 51, 51);
+	color: white;
+}
+
+
+address {
+	font-size: 2em;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* Body Footer Styles */
+
+body > footer {
+	color: white;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	line-height: 2em;
+	width: 100%;	
+}
